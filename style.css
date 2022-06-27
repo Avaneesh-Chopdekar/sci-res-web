@@ -44,9 +44,12 @@ html::-webkit-scrollbar-thumb:hover {
 
 #subtitle {
   font-family: "Poppins", Roboto, "Open Sans", "Helvetica Neue", sans-serif;
-  /* padding: 10px; */
   text-align: center;
   font-size: 1.3rem;
+}
+
+li {
+  list-style-type: none;
 }
 
 a {
@@ -63,7 +66,6 @@ a {
   text-align: center;
   display: block;
   margin: 40px auto;
-  list-style-type: none;
   max-width: 300px;
 }
 
@@ -72,20 +74,18 @@ a {
   box-shadow: inset 6px 6px 12px #b1b4b9, inset -6px -6px 12px #ffffff;
 }
 
-.list:hover > li,
-.list:active > li {
+.list:hover,
+.list:active {
   transform: scale(0.98);
 }
 
 .credit {
-  list-style-type: none;
   text-align: center;
 }
 
 #more-info {
   user-select: none;
   color: #3c85e4;
-  list-style-type: none;
   display: inline-block;
   transition: 400ms;
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -105,6 +105,7 @@ a {
 .more-info-li {
   text-align: start;
   margin: 30px;
+  list-style-type: disc;
 }
 
 #go-back {
@@ -113,7 +114,6 @@ a {
   border-radius: 6px;
   font-size: 0.9rem;
   display: inline-block;
-  list-style-type: none;
   text-align: center;
   padding: 10px 20px;
   user-select: none;
@@ -138,7 +138,9 @@ a {
   #subtitle {
     font-size: 1rem;
   }
-  li {
+  .list,
+  .more-info-li,
+  .span {
     font-size: 80%;
   }
   .list {
@@ -153,9 +155,6 @@ a {
   #more-info {
     transition: none;
     font-size: 0.7rem;
-  }
-  .more-info-li {
-    list-style-type: none;
   }
   #more-info:hover,
   #more-info:active {
