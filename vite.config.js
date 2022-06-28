@@ -17,6 +17,7 @@ module.exports = {
         phyjee: resolve(__dirname, "jee/phy/index.html"),
         mathsjee: resolve(__dirname, "jee/maths/index.html"),
         chemjee: resolve(__dirname, "jee/chem/index.html"),
+        404: resolve(__dirname, "404.html"),
       },
     },
   },
