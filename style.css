@@ -28,11 +28,12 @@ html::-webkit-scrollbar-thumb:hover {
 }
 
 nav {
+  padding-top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 20px;
+  margin: 20px;
 }
 
 #title {
@@ -136,9 +137,12 @@ a {
 }
 
 @media only screen and (max-width: 500px) {
+  nav {
+    padding-top: 10px;
+    margin: 10px;
+  }
   #title {
     font-size: 1.2rem;
-    margin: 10px;
   }
   #subtitle {
     font-size: 1rem;
