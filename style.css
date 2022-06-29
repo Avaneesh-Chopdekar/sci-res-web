@@ -94,7 +94,7 @@ a {
 
 #more-info {
   user-select: none;
-  color: #3c85e4;
+  color: rgba(0, 0, 0, 0.9);
   display: inline-block;
   transition: 400ms;
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -106,8 +106,8 @@ a {
 
 #more-info:hover,
 #more-info:active {
-  border: 1px solid #3c85e4;
-  background-color: #3c85e4;
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   color: white;
 }
 
@@ -169,7 +169,7 @@ a {
   #more-info:active {
     border: 1px solid rgba(0, 0, 0, 0.5);
     background-color: transparent;
-    color: #3c85e4;
+    color: rgba(0, 0, 0, 0.9);
   }
   #go-back {
     font-size: 0.8rem;
