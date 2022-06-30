@@ -42,7 +42,6 @@ nav {
   font-family: "Poppins", Roboto, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
   font-size: 1.7rem;
-  /* border: 2px solid red; For Testing Purpose */
 }
 
 .container {
@@ -81,34 +80,7 @@ a {
 .list:hover,
 .list:active {
   box-shadow: inset 6px 6px 12px #b1b4b9, inset -6px -6px 12px #ffffff;
-}
-
-.list:hover,
-.list:active {
   transform: scale(0.98);
-}
-
-.credit {
-  text-align: center;
-}
-
-#more-info {
-  user-select: none;
-  color: rgba(0, 0, 0, 0.9);
-  display: inline-block;
-  transition: 400ms;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  border-radius: 6px;
-  font-size: 0.8rem;
-  padding: 10px 20px;
-  margin-bottom: 40px;
-}
-
-#more-info:hover,
-#more-info:active {
-  border: 1px solid rgba(0, 0, 0, 0.9);
-  background-color: rgba(0, 0, 0, 0.9);
-  color: white;
 }
 
 .more-info-li {
@@ -117,7 +89,7 @@ a {
   list-style-type: disc;
 }
 
-#go-back {
+#outlined-btn {
   border: 1px solid rgba(0, 0, 0, 0.5);
   color: rgba(0, 0, 0, 0.9);
   border-radius: 6px;
@@ -130,8 +102,8 @@ a {
   margin-bottom: 40px;
 }
 
-#go-back:hover,
-#go-back:active {
+#outlined-btn:hover,
+#outlined-btn:active {
   color: white;
   background-color: rgba(0, 0, 0, 0.9);
 }
@@ -149,7 +121,7 @@ a {
   }
   .list,
   .more-info-li,
-  .span {
+  span {
     font-size: 80%;
   }
   .list {
@@ -161,22 +133,12 @@ a {
   .list:active {
     box-shadow: inset 4px 4px 8px #b1b4b9, inset -4px -4px 8px #ffffff;
   }
-  #more-info {
-    transition: none;
-    font-size: 0.7rem;
-  }
-  #more-info:hover,
-  #more-info:active {
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    background-color: transparent;
-    color: rgba(0, 0, 0, 0.9);
-  }
-  #go-back {
-    font-size: 0.8rem;
+  #outlined-btn {
+    font-size: 0.75rem;
     transition: none;
   }
-  #go-back:hover,
-  #go-back:active {
+  #outlined-btn:hover,
+  #outlined-btn:active {
     color: black;
     background-color: transparent;
   }
